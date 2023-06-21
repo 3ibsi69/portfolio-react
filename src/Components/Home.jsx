@@ -32,7 +32,7 @@ function Home() {
   return (
     <div>
       <h1 id="myname">abbassi ahmed</h1>
-      <h3>{currentText}</h3>
+      <h3 id="text-move">{currentText}</h3>
       <a href="../../Pictures/Ahmed_Abbassi_CV_en.pdf" download>
         <button className="btn">Download Resume</button>
       </a>

@@ -3,9 +3,12 @@ import NavBar from ".//Components/navbar";
 import ".//Styles/Style.css";
 import Home from "./Components/Home.jsx";
 import About from ".//Components/About";
-import"./Styles/experiences.css";
+import "./Styles/experiences.css";
 import Experience from "./Components/Experience";
-
+import Cards from "./Components/Cards";
+import ".//Styles//cards.css";
+import Footer from "./Components/Footer";
+import "./Styles/footer.css";
 
 function App() {
   return (
@@ -16,15 +19,27 @@ function App() {
         <div className="container">
           <Home />
         </div>
+        </div>
+
         <div className="about-me">
-          <About/>
+          <About />
         </div>
         <div className="Experience">
-      <Experience/>
+          <Experience />
         </div>
-
-
-      </div>
+      
+        <div className="cards">
+        <h1 className="border-effect" id="cert-title">
+          Certifications
+        </h1>
+          <div className="grid-cards">
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+          </div>
+        </div>
+       <Footer/>
     </div>
   );
 }

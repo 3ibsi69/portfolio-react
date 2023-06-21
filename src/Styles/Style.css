@@ -31,7 +31,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.5);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,8 +60,8 @@ body {
 }
 
 .nav-links ul li a:hover {
+    transform: translateY(-2px);
     color: rgb(68, 68, 247);
-    transition: all 0.3s ease;
 }
 
 .hover-effect {
@@ -93,22 +93,25 @@ body {
     height: 100vh;
     position: relative;
     z-index: 2;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .container #myname {
-    font-size: 90px;
+    font-size: 70px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    color: #F0FFF0;
+    color: #FFF;
     letter-spacing: 3px;
 }
 
 .container h3 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
-    color: #F0FFF0;
+    color: #FFF;
     opacity: 0.8;
     letter-spacing: 1px;
 }
@@ -124,16 +127,15 @@ body {
     margin: 40px auto;
     padding: 15px 20px;
     background-color: transparent;
-    border-radius: 5px;
+    border-radius: 60px;
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
     border: 2.5px solid #F0FFF0;
     transition: all 0.3s ease;
-    color: #F0FFF0;
+    color: #FFF;
     cursor: pointer;
 }
-
 
 .container .btn:hover {
     transform: translateY(-5px);
@@ -142,10 +144,8 @@ body {
 
 .about-me {
     width: 100%;
-    min-height: 15vh;
-    border-bottom: 0.4px solid rgb(209, 208, 208);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-
+    margin-bottom: 10px;
 }
 
 .about {
@@ -154,23 +154,24 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 15vh;
+    padding: 50px;
+    min-height: 15vh;
 }
 
 .about #about-title {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 600;
     opacity: 0.9;
     margin-bottom: 20px;
-
+    color: black;
 }
 
 .about p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.1;
     font-weight: 500;
     opacity: 0.8;
-
+    color: black;
 }
 
 .border-effect {
@@ -188,14 +189,63 @@ body {
     background-color: rgb(68, 68, 247);
 }
 
-
-
-
-@media (max-width: 1520px) {
-
-    .about {
-        grid-template-columns: 1fr;
+@media (max-width: 1024px) {
+    .container #myname {
+        font-size: 50px;
     }
 
+    .container h3 {
+        font-size: 30px;
+    }
 
+    .about #about-title {
+        font-size: 26px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    .about {
+        grid-template-columns: 1fr;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .container #myname {
+        font-size: 40px;
+    }
+
+    .container h3 {
+        font-size: 24px;
+    }
+
+    .about #about-title {
+        font-size: 22px;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container #myname {
+        font-size: 30px;
+    }
+
+    .container h3 {
+        font-size: 20px;
+    }
+
+    .about #about-title {
+        font-size: 18px;
+    }
+
+    .about p {
+        font-size: 10px;
+    }
 }

@@ -1,35 +1,89 @@
 function Experience(){
     return(
 <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h1 className="border-effect" id="exp-title">Experiences</h1>
-                    <div id="content">
-                        <ul class="timeline">
-                            <li class="event" data-date="12:30 - 1:00pm">
-                                <h3>Registration</h3>
-                                <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
-                            </li>
-                            <li class="event" data-date="2:30 - 4:00pm">
-                                <h3>Opening Ceremony</h3>
-                                <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta Rhymes as an opening show.</p>
-                            </li>
-                            <li class="event" data-date="5:00 - 8:00pm">
-                                <h3>Main Event</h3>
-                                <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get ready!</p>
-                            </li>
-                            <li class="event" data-date="8:30 - 9:30pm">
-                                <h3>Closing Ceremony</h3>
-                                <p>See how is the victor and who are the losers. The big stage is where the winners bask in their own glory.</p>
-                            </li>
-                        </ul>
-                    </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+      <h1 className="border-effect" id="exp">Experience</h1>
+
+        <div class="card-body">
+
+          <div class="mt-5">
+
+            <div class="timeline">
+
+              <div class="timeline-wrapper timeline-wrapper-warning">
+                <div class="timeline-badge"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h6 class="timeline-title">Lorem ipsum dolor sit amet .</h6>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Two years in the making, we finally have our first beta release of Bootstrap 4.</p>
+                  </div>
+                  <div class="timeline-footer d-flex align-items-center flex-wrap">
+                      <i class="mdi mdi-heart-outline text-muted mr-1"></i>
+                      <span>19</span>
+                      <span class="ml-md-auto font-weight-bold">19 Oct 2017</span>
+                  </div>
                 </div>
+              </div>
+              <div class="timeline-wrapper timeline-inverted timeline-wrapper-danger">
+                <div class="timeline-badge"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h6 class="timeline-title">Bootstrap 4 Alpha 6</h6>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Alpha 6 has landed, and it’s one of our biggest ships to date.</p>
+                  </div>
+                  <div class="timeline-footer d-flex align-items-center flex-wrap">
+                      <i class="mdi mdi-heart-outline text-muted mr-1"></i>
+                      <span>25</span>
+                      <span class="ml-md-auto font-weight-bold">10th Aug 2017</span>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-wrapper timeline-wrapper-success">
+                <div class="timeline-badge"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h6 class="timeline-title">Bootstrap 4 Alpha 5</h6>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Alpha 5 has arrived just over a month after Alpha 4 with some major feature improvements and a boat load of bug fixes.</p>
+                  </div>
+                  <div class="timeline-footer d-flex align-items-center flex-wrap">
+                      <i class="mdi mdi-heart-outline text-muted mr-1"></i>
+                      <span>19</span>
+                      <span class="ml-md-auto font-weight-bold">5th Sep 2016</span>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-wrapper timeline-inverted timeline-wrapper-info">
+                <div class="timeline-badge"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h6 class="timeline-title">Bootstrap 4 Alpha 4</h6>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Alpha 4 is here to address those pesky build and package errors, a few CSS bugs, and some documentation inconsistencies we introduced in our last release.</p>
+                  </div>
+                  <div class="timeline-footer d-flex align-items-center flex-wrap">
+                      <i class="mdi mdi-heart-outline text-muted mr-1"></i>
+                      <span>19</span>
+                      <span class="ml-md-auto font-weight-bold">27th July 2016</span>
+                  </div>
+                </div>
+              </div>
+             
+           
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
     )
 }

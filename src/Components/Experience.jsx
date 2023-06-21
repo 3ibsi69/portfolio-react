@@ -1,6 +1,5 @@
 function Experience(){
     return(
-<div class="container">
   <div class="row">
     <div class="col-12">
       <div class="card">
@@ -18,9 +17,7 @@ function Experience(){
                   <div class="timeline-heading">
                     <h6 class="timeline-title">Lorem ipsum dolor sit amet .</h6>
                   </div>
-                  <div class="timeline-body">
-                    <p>Two years in the making, we finally have our first beta release of Bootstrap 4.</p>
-                  </div>
+                
                   <div class="timeline-footer d-flex align-items-center flex-wrap">
                       <i class="mdi mdi-heart-outline text-muted mr-1"></i>
                       <span>19</span>
@@ -34,9 +31,7 @@ function Experience(){
                   <div class="timeline-heading">
                     <h6 class="timeline-title">Bootstrap 4 Alpha 6</h6>
                   </div>
-                  <div class="timeline-body">
-                    <p>Alpha 6 has landed, and it’s one of our biggest ships to date.</p>
-                  </div>
+                  
                   <div class="timeline-footer d-flex align-items-center flex-wrap">
                       <i class="mdi mdi-heart-outline text-muted mr-1"></i>
                       <span>25</span>
@@ -50,9 +45,7 @@ function Experience(){
                   <div class="timeline-heading">
                     <h6 class="timeline-title">Bootstrap 4 Alpha 5</h6>
                   </div>
-                  <div class="timeline-body">
-                    <p>Alpha 5 has arrived just over a month after Alpha 4 with some major feature improvements and a boat load of bug fixes.</p>
-                  </div>
+               
                   <div class="timeline-footer d-flex align-items-center flex-wrap">
                       <i class="mdi mdi-heart-outline text-muted mr-1"></i>
                       <span>19</span>
@@ -66,9 +59,7 @@ function Experience(){
                   <div class="timeline-heading">
                     <h6 class="timeline-title">Bootstrap 4 Alpha 4</h6>
                   </div>
-                  <div class="timeline-body">
-                    <p>Alpha 4 is here to address those pesky build and package errors, a few CSS bugs, and some documentation inconsistencies we introduced in our last release.</p>
-                  </div>
+                 
                   <div class="timeline-footer d-flex align-items-center flex-wrap">
                       <i class="mdi mdi-heart-outline text-muted mr-1"></i>
                       <span>19</span>
@@ -84,7 +75,6 @@ function Experience(){
       </div>
     </div>
   </div>
-</div>
     )
 }
 export default Experience;

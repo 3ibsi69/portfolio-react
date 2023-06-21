@@ -150,11 +150,11 @@ body {
 
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     min-height: 15vh;
 }
 
@@ -172,6 +172,7 @@ body {
     font-weight: 500;
     opacity: 0.8;
     color: black;
+    text-align: left;
 }
 
 .border-effect {

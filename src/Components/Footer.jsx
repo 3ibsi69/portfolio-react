@@ -1,30 +1,42 @@
 import 'font-awesome/css/font-awesome.min.css'; // Import Font Awesome CSS
 
+
 function Footer() {
   return (
     <div className="footer">
-      <div className="row text-center">						
-        <div className="col-lg-12 col-sm-12 col-xs-12">
-          <div className="footer_menu">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Works</a></li>
-            </ul>
-          </div>						
-          <div className="footer_profile">
-            <ul>
-              <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-              <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-            </ul>
-          </div>						
-        </div>						
+      <div className="footer-contact">
+        <h1>Information</h1>
+        <p>
+          <img src="./Pictures/location.gif" id="location" alt="" />
+          <span>Address:</span> Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Quia mollitia
+        </p>
+        <p>
+          <img src="./Pictures/phone.gif" id="phone" alt="" />
+          <span>Phone:</span> +216 23 631 633
+        </p>
+        <p>
+          <img src="./Pictures/email.gif" alt="" id="email" />
+          <span>Email:</span> a.abbassi21306@pi.tn
+        </p>
       </div>
-  </div>
-  )
+      <div className="social-links">
+        <h1>Social Links</h1>
+        <a href="#">
+          <i className="fa fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i className="fa fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i className="fa fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i className="fa fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  );
 }
 
 export default Footer;

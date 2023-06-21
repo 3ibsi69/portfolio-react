@@ -30,7 +30,7 @@ function App() {
       
         <div className="cards">
         <h1 className="border-effect" id="cert-title">
-          Certifications
+          Projects
         </h1>
           <div className="grid-cards">
             <Cards />

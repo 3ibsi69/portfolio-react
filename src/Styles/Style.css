@@ -188,10 +188,21 @@ body {
     background-color: rgb(68, 68, 247);
 }
 
-
 #text-move {
     height: 30px;
 }
+
+#mobile {
+    display: none;
+}
+
+#mobile i {
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    font-size: 25px;
+}
+
 
 @media (max-width: 1024px) {
     .container #myname {
@@ -238,10 +249,31 @@ body {
 
 @media (max-width: 584px) {
     .nav-links {
-        display: none;
+        max-height: 0;
+        transition: max-height 0.9s ease;
+        overflow: hidden;
     }
-}
 
+    .nav-links.open {
+        max-height: 500px;
+        transition: max-height 0.9s ease;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .nav-links ul li {
+        padding: 10px 0;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+}
 
 @media (max-width: 576px) {
     .container #myname {

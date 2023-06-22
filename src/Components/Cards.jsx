@@ -1,15 +1,16 @@
-function Cards({ link, title, description }) {
+function Cards({ link, title, description, image }) {
+
   return (
     <section className="articles">
       <article>
         <div className="article-wrapper">
           <figure>
-            <img src={link} alt="" /> 
+            <img src={image} alt={title} />
           </figure>
           <div className="article-body">
-            <h2>{title}</h2> 
+            <h2>{title}</h2>  
             <p>{description}</p> 
-            <a href="#" className="read-more">
+            <a href={link} className="read-more">
               Read more
               <span className="sr-only"></span>
               <svg

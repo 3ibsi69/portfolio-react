@@ -17,32 +17,44 @@ function App() {
       behavior: "smooth",
     });
   };
-
+ 
   const aboutRef = React.createRef();
   const experienceRef = React.createRef();
   const cardsRef = React.createRef();
 
   const [cardvalue, setCardValue] = useState([
     {
+  
       title: "Portfolio",
+      image: "./Pictures/Portfolio.png",
       description: "Unveiling my creative journey through captivating designs and seamless functionality.",
-      link: "",
+      link: "#",
     },  
     {
       title: "Login page",
+      image: "./Pictures/To-do.png",
       description: "An elegant and intuitive front-end login page, seamlessly user-friendly.",
-      link: "..//./Pictures///Login_page.png",
+      link: "#",
     },
     {
       title: "Booking site",
+      image: "./Pictures/book.png",
       description: "A user-friendly hospital booking site, streamlining appointments with ease",
-      link: "https://www.google.com",
+      link: "#",
     },
     {
       title: "Todo list",
+      image: "./Pictures/To-do.png",
       description: "Efficient task management app for enhanced productivity.",
-      link: "https://www.google.com",
+      link: "#",
     },
+    {
+      title: "Weather app",
+      image: "./Pictures/weather-app.png",
+      description: "A weather app that provides real-time weather updates.",
+      link: "#",
+    },
+
     
   ]);
 
@@ -73,7 +85,7 @@ function App() {
         </h1>
         <div ref={cardsRef} className="grid-cards">
           {cardvalue.map((card, index) => (
-            <Cards key={index} link={card.link} title={card.title} description={card.description}  />
+            <Cards key={index} image={card.image} link={card.link} title={card.title} description={card.description}  />
           ))}
         </div>
       </div>

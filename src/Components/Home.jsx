@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 function Home() {
   const [currentText, setCurrentText] = useState('');
   const texts = ["welcome to my portfolio", "I am a web developer", "Living in Tunisia"];
-  const pdfPath = '../Pictures/Ahmed_Abbassi_CV_en.pdf'; // Set the correct path to your PDF file
 
   useEffect(() => {
     let currentWordIndex = 0;
@@ -23,7 +22,7 @@ function Home() {
       }
     };
 
-    intervalId = setInterval(typeText, 150);
+    intervalId = setInterval(typeText, 150); 
 
     return () => {
       clearInterval(intervalId);
@@ -34,7 +33,7 @@ function Home() {
     <div>
       <h1 id="myname">abbassi ahmed</h1>
       <h3 id="text-move">{currentText}</h3>
-      <a href={pdfPath} download> {/* Add download link */}
+      <a href="/Ahmed_Abbassi_CV_en.pdf" download>
         <button className="btn">Download Resume</button>
       </a>
     </div>

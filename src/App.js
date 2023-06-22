@@ -1,14 +1,24 @@
 import React, { useState } from "react";
 import NavBar from "./Components/navbar";
-import "./Styles/Style.css";
 import Home from "./Components/Home.jsx";
 import About from "./Components/About";
-import "./Styles/experiences.css";
 import Experience from "./Components/Experience";
 import Cards from "./Components/Cards";
-import "./Styles/cards.css";
 import Footer from "./Components/Footer";
+
+import "./Styles/Style.css";
+import "./Styles/experiences.css";
+import "./Styles/cards.css";
 import "./Styles/footer.css";
+
+
+import Portfolio from './Pictures/Portfolio.png';
+import To_do from './Pictures/To-do.png';
+import login from './Pictures/Login_page.png';
+import Book from './Pictures/book.png';
+import Weather from './Pictures/weather-app.png';
+
+
 
 function App() {
   const scrollToRef = (ref) => {
@@ -26,31 +36,31 @@ function App() {
     {
   
       title: "Portfolio",
-      image: "./Pictures/Portfolio.png",
+      image:Portfolio,
       description: "Unveiling my creative journey through captivating designs and seamless functionality.",
       link: "#",
     },  
     {
       title: "Login page",
-      image: "./Pictures/To-do.png",
+      image: login,
       description: "An elegant and intuitive front-end login page, seamlessly user-friendly.",
       link: "#",
     },
     {
       title: "Booking site",
-      image: "./Pictures/book.png",
+      image: Book,
       description: "A user-friendly hospital booking site, streamlining appointments with ease",
       link: "#",
     },
     {
       title: "Todo list",
-      image: "./Pictures/To-do.png",
+      image: To_do,
       description: "Efficient task management app for enhanced productivity.",
       link: "#",
     },
     {
       title: "Weather app",
-      image: "./Pictures/weather-app.png",
+      image: Weather,
       description: "A weather app that provides real-time weather updates.",
       link: "#",
     },

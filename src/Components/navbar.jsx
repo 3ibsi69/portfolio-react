@@ -26,6 +26,10 @@ function NavBar({ scrollToAbout, scrollToExperience,scrollToCards }) {
             </li>
           </ul>
         </div>
+        <div id="mobile">
+          <i className="fas fa-bars"></i>
+          <i className="fas fa-times"></i>
+        </div>
       </nav>
     );
   }

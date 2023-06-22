@@ -11,7 +11,7 @@ function Cards({ link, title, description, image }) {
           <div className="article-body">
             <h2>{title}</h2>  
             <p>{description}</p> 
-            <a href={link} className="read-more">
+            <a href={link} className="read-more" target="_blank">
               Read more
               <span className="sr-only"></span>
               <svg

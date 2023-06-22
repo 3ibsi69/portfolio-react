@@ -15,13 +15,12 @@ function Experience(){
                 <div className="timeline-badge"></div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
-                    <h6 className="timeline-title">Lorem ipsum dolor sit amet .</h6>
+                    <h6 className="timeline-title">bacalaureat Informatique</h6>
                   </div>
                 
                   <div className="timeline-footer d-flex align-items-center flex-wrap">
                       <i className="mdi mdi-heart-outline text-muted mr-1"></i>
-                      <span>19</span>
-                      <span className="ml-md-auto font-weight-bold">19 Oct 2017</span>
+                      <span className="ml-md-auto font-weight-bold">15th Sep 2020</span>
                   </div>
                 </div>
               </div>
@@ -29,13 +28,12 @@ function Experience(){
                 <div className="timeline-badge"></div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
-                    <h6 className="timeline-title">Bootstrap 4 Alpha 6</h6>
+                    <h6 className="timeline-title">Licence Genie logiciel</h6>
                   </div>
                   
                   <div className="timeline-footer d-flex align-items-center flex-wrap">
                       <i className="mdi mdi-heart-outline text-muted mr-1"></i>
-                      <span>25</span>
-                      <span className="ml-md-auto font-weight-bold">10th Aug 2017</span>
+                      <span className="ml-md-auto font-weight-bold">15th Sep 2021</span>
                   </div>
                 </div>
               </div>
@@ -43,13 +41,13 @@ function Experience(){
                 <div className="timeline-badge"></div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
-                    <h6 className="timeline-title">Bootstrap 4 Alpha 5</h6>
+                    <h6 className="timeline-title">Internship B and smile</h6>
                   </div>
                
                   <div className="timeline-footer d-flex align-items-center flex-wrap">
                       <i className="mdi mdi-heart-outline text-muted mr-1"></i>
                       <span>19</span>
-                      <span className="ml-md-auto font-weight-bold">5th Sep 2016</span>
+                      <span className="ml-md-auto font-weight-bold">01th Aug 2022/</span>
                   </div>
                 </div>
               </div>
@@ -57,13 +55,12 @@ function Experience(){
                 <div className="timeline-badge"></div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
-                    <h6 className="timeline-title">Bootstrap 4 Alpha 4</h6>
+                    <h6 className="timeline-title">Internship Karriery</h6>
                   </div>
                  
                   <div className="timeline-footer d-flex align-items-center flex-wrap">
                       <i className="mdi mdi-heart-outline text-muted mr-1"></i>
-                      <span>19</span>
-                      <span className="ml-md-auto font-weight-bold">27th July 2016</span>
+                      <span className="ml-md-auto font-weight-bold">29th July 2023</span>
                   </div>
                 </div>
               </div>

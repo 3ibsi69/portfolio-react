@@ -17,6 +17,7 @@ import To_do from './Pictures/To-do.png';
 import login from './Pictures/Login_page.png';
 import Book from './Pictures/book.png';
 import Weather from './Pictures/weather-app.png';
+import PortfolioR from './Pictures/PortfolioR.png';
 
 
 
@@ -63,6 +64,12 @@ function App() {
       image: Weather,
       description: "A weather app that provides real-time weather updates.",
       link: "https://github.com/3ibsi69/weather-app",
+    },
+    {
+      title: "Portfolio(React)",
+      image: PortfolioR,
+      description: "React version of my portfolio website with a more modern look and feel to it ",
+      link: "https://github.com/3ibsi69/portfolio-react",
     },
   
 

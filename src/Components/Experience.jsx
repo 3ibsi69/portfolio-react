@@ -47,7 +47,7 @@ function Experience(){
                   <div className="timeline-footer d-flex align-items-center flex-wrap">
                       <i className="mdi mdi-heart-outline text-muted mr-1"></i>
                       <span>19</span>
-                      <span className="ml-md-auto font-weight-bold">01th Aug 2022/</span>
+                      <span className="ml-md-auto font-weight-bold">01th Aug 2022</span>
                   </div>
                 </div>
               </div>

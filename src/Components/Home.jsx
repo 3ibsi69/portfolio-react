@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+//import a pdf
+import pdf from '../Pictures/Ahmed_Abbassi_CV_en.pdf';
 
 function Home() {
   const [currentText, setCurrentText] = useState('');
@@ -33,7 +35,7 @@ function Home() {
     <div>
       <h1 id="myname">abbassi ahmed</h1>
       <h3 id="text-move">{currentText}</h3>
-      <a href="/src/Pictures/Ahmed_Abbassi_CV_en.pdf" download>
+      <a href={pdf} download="Ahmed_Abbassi_CV_en.pdf">
         <button className="btn">Download Resume</button>
       </a>
     </div>
